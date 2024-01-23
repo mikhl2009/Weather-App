@@ -1,0 +1,44 @@
+.forecast {
+    width: 884px;
+    height: 262px;
+    
+
+}
+
+.weather-row .weather-grid {
+    display: grid;
+    background: linear-gradient(180deg, #ffffff 0%, #cce0ff 100%);
+    border-size: 1px;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: auto;
+    font-size: 20px;
+    color: #000000;
+    border: 1px solid #000000;
+    box-shadow: 0px 2px 4px rgba(8, 35, 48, 0.24),
+    0px 4px 8px rgba(8, 35, 48, 0.16);
+    
+
+}
+.weather-card {
+  margin: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    font-size: 0.9rem;
+
+}
+
+.weather-row > * {
+  grid-column: 2/ -2;
+
+    display: flex;
+
+}
+
+.weather-row > .full {
+  grid-column: 1/-1;
+  
+
+}

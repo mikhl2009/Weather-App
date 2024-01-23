@@ -1,0 +1,53 @@
+.weather-input input {
+  height: 46px;
+  width: 70%;
+  outline: none;
+  font-size: 1.07rem;
+  padding: 0 17px;
+  margin: 10px 0 20px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+.weather-input input:focus {
+  padding: 0 16px;
+  border: 2px solid #5372f0;
+}
+.weather-input .separator {
+  height: 1px;
+  width: 100%;
+  margin: 25px 0;
+  background: #bbbbbb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weather-input .separator::before {
+  content: "or";
+  color: #6c757d;
+  font-size: 1.18rem;
+  padding: 0 15px;
+  margin-top: -4px;
+  background: #e3f2fd;
+}
+.weather-input button {
+  width: 40%;
+  padding: 10px 0;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  color: #fff;
+  background: #5372f0;
+  transition: 0.2s ease;
+}
+.weather-input .search-btn {
+  display: inline-block;
+}
+.weather-input .location-btn {
+  display: inline-block;
+  background: #6c757d;
+}
+.weather-input .location-btn:hover {
+  background: #5c636a;
+}

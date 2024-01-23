@@ -1,0 +1,48 @@
+
+margin: 2rem 0;
+
+  .label {
+    color: #b8cdfe;
+    font-size: 0.9rem;
+    margin-right: 0.5em;
+    
+  }
+
+  .value {
+    color: #ffffff;
+    
+  }
+
+  .ave-tempt__value {
+    display: block;
+    font-size: 4rem;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#eef4fe, #c0dbff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .ave-tempt__label {
+    display: block;
+    color: #b9ceff;
+    
+  }
+
+  .today-section {
+    &__date {
+      color: #b9ceff;
+    }
+
+    &__temperature,
+    &__wind {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 2rem 0;
+    }
+  }
+  .today-section__title {
+    color: #b9ceff;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
